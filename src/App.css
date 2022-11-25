@@ -22,3 +22,8 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 2vh;
 }
+
+.victory{
+  margin-top: 20vh;
+  color:darkgoldenrod;
+}
