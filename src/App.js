@@ -63,12 +63,10 @@ function App() {
     setDisabled(false);
     let count = 2;
     for (const item in cards) {
-      //console.log(`${item}: ${cards[item].matched}`);
       if (cards[item].matched === true) {
         count++;
-        console.log(count);
         if (count === cards.length) {
-          setVictory(true);
+          setTimeout(() => setVictory(true), 700);
         }
       }
     }
