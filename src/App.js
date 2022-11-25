@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import SingleCard from "./components/SingleCard";
+import confetti from "https://cdn.skypack.dev/canvas-confetti";
+import canvasConfetti from "https://cdn.skypack.dev/canvas-confetti";
 
 const cardImages = [
   { src: "/img/helmet-1.png", matched: false },
@@ -66,7 +68,11 @@ function App() {
       if (cards[item].matched === true) {
         count++;
         if (count === cards.length) {
-          setTimeout(() => setVictory(true), 700);
+          setTimeout(() => {
+            setVictory(true);
+            canvasConfetti();
+            canvasConfetti();
+          }, 700);
         }
       }
     }
