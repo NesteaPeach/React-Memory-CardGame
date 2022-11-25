@@ -1,4 +1,4 @@
-![React_Memory_Card_Game](https://user-images.githubusercontent.com/110486683/202619920-de006dff-2bd1-45a5-bcf5-297f1f926e03.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/110486683/203941237-f8ed4e6f-fea4-47bd-bfd5-2d9b1fa6c1f3.gif)
 
 
 ### `Introduction`
